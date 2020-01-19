@@ -103,6 +103,7 @@ int main(){
     
     // n is number of processor available
     // m is number of jobs to done
+    // arr[i] is the time required to do ith job 
     int m, n;
     cin>>n; 
     cin>>m; 
