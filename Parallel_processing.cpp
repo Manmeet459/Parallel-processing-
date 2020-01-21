@@ -1,3 +1,13 @@
+//In this problem you will simulate a program that processes a list of jobs in parallel. Operating systems such as Linux, MacOS or 
+//Windows all have special programs in them called schedulers which do exactly this with the programs on your computer
+
+//You have a program which is parallelized and uses n independent threads to process the given list of m jobs. Threads take jobs in the 
+//order they are given in the input. If there is a free thread, it immediately takes the next job from the list. If a thread has started
+//processing a job, it doesn’t interrupt or stop until it finishes processing the job. If several threads try to take jobs from the list
+//simultaneously, the thread with smaller index takes the job. For each job you know exactly how long will it take any thread to process
+//this job, and this time is the same for all the threads. You need to determine for each job which thread will process it and when will
+//it start processing.
+
 #include<bits/stdc++.h>
 
 using namespace std;
